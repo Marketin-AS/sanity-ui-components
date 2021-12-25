@@ -1,0 +1,132 @@
+* {
+  box-sizing: border-box;
+  outline: none;
+  font-family: var(--font-family);
+}
+
+html {
+  font-family: var(--font-family);
+  font-size: var(--font-base);
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  background: var(--color-background);
+  color: var(--color-text);
+  padding: 0;
+  margin: 0;
+  user-select: text;
+}
+
+h1 {
+  font-size: var(--font-xxl);
+  font-weight: var(--font-weight-bold);
+}
+
+h2 {
+  font-size: var(--font-xl);
+  font-weight: var(--font-weight-bold);
+}
+
+h3 {
+  font-size: var(--font-lg);
+  font-weight: var(--font-weight-bold);
+}
+
+h4 {
+  font-size: var(--font-md);
+  font-weight: var(--font-weight-bold);
+}
+
+h5 {
+  font-size: var(--font-sm);
+  font-weight: var(--font-weight-bold);
+}
+
+h6 {
+  font-size: var(--font-xs);
+  font-weight: var(--font-weight-bold);
+}
+
+p {
+  font-size: var(--font-base);
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-black);
+}
+
+::selection {
+  background: var(--color-primary);
+}
+
+:root {
+  // Variables
+  --site-width: 1000px;
+  --section-margin: 128px;
+  --border-radius: 8px;
+
+  // Text
+  --font-family: 'Open Sans', sans-serif;
+  --font-base: 18px;
+
+  --font-xxl: 2.9rem;
+  --font-xl: 2.3rem;
+  --font-lg: 1.8rem;
+  --font-md: 1.4rem;
+  --font-sm: 1.1rem;
+  --font-xs: 0.9rem;
+
+  // Font weights
+  --font-weight-light: 300;
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-bold: 700;
+  --font-weight-black: 900;
+
+  // Colors
+  --color-background: #f1f0ec;
+  --color-text: #1f1f1f;
+
+  --color-white: #fbfbfb;
+  --color-black: #1f1f1f;
+  --color-beige: #f1f0ec;
+  --color-grey: #e3e3e3;
+
+  --color-primary: #fc4d4a;
+  --color-primary-light: #f9a3a2;
+  --color-primary-dark: #9e312f;
+
+  // --color-secondary: ;
+  // --color-secondary-light: ;
+  // --color-secondary-dark: ;
+
+  // Shadows
+  --shadow-md: 0px 2px 4px -1px rgba(45, 55, 72, 0.06),
+    0px 4px 6px -1px rgba(45, 55, 72, 0.1);
+
+  --shadow-lg: 0px 4px 6px -2px rgba(45, 55, 72, 0.05),
+    0px 10px 15px -3px rgba(45, 55, 72, 0.1);
+
+  --shadow-xl: 0px 10px 10px -5px rgba(45, 55, 72, 0.04),
+    0px 20px 25px -5px rgba(45, 55, 72, 0.1);
+
+  --shadow-2xl: 0px 25px 50px -12px rgba(45, 55, 72, 0.25);
+}
+
+@media (max-width: 768px) {
+  :root {
+    --section-margin: 72px;
+    --font-base: 16px;
+  }
+}

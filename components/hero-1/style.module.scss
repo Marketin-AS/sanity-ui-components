@@ -1,0 +1,13 @@
+.root {
+  width: 100%;
+  padding: 0px 16px;
+  position: relative;
+  margin: var(--section-margin) 0;
+}
+
+.container {
+  width: 100%;
+  max-width: var(--site-width);
+  margin: 0 auto;
+  position: relative;
+}

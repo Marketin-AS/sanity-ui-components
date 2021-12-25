@@ -1,0 +1,17 @@
+.container {
+  width: var(--site-width);
+  margin: 32px auto;
+  padding: 20px;
+}
+
+.links {
+  columns: 3;
+  -webkit-columns: 3;
+  -moz-columns: 3;
+
+  @media screen and (max-width: 900px) {
+    columns: 1;
+    -webkit-columns: 1;
+    -moz-columns: 1;
+  }
+}
