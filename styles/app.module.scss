@@ -15,3 +15,27 @@
     -moz-columns: 1;
   }
 }
+
+.topNav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--color-black);
+  padding: 8px 16px;
+  min-height: 60px;
+
+  a {
+    color: var(--color-white);
+    font-size: var(--font-xs);
+    font-weight: var(--font-weight-medium);
+    text-decoration: none;
+    padding: 6px 16px;
+    border: 2px solid var(--color-primary);
+    border-radius: 50px;
+  }
+
+  p {
+    margin: 0;
+    color: white;
+  }
+}

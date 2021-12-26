@@ -1,8 +1,9 @@
 import styles from './style.module.scss'
 import PropTypes from 'prop-types'
 
-function CustomComponent(props) {
-  const {} = props
+function Persons(props) {
+  if (!props.data) return null
+  const {} = props.data
 
   return (
     <div className={styles.root}>
@@ -11,6 +12,6 @@ function CustomComponent(props) {
   )
 }
 
-CustomComponent.propTypes = {}
+Persons.propTypes = {}
 
-export default CustomComponent
+export default Persons

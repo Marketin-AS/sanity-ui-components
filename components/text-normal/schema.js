@@ -19,7 +19,7 @@ export default {
       type: 'string',
       options: [
         { title: '100%', value: '100' },
-        { title: '70%', value: '70' },
+        { title: '75%', value: '75' },
         { title: '50%', value: '50' },
       ],
       validation: (Rule) => Rule.required().error('This field is required'),
