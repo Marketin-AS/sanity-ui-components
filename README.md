@@ -3,7 +3,7 @@
 > Version 1.0.0 <br />
 > Developed by Daniel Martinsen at Marketin AS
 
-Can be used in all web applications, but is designed for use with Sanity IO. Each component has its own folder that contains an index.js file, style.scss and schema.js.
+Can be used in all web applications, but the library is designed for use with Sanity IO. Each component has its own folder, containing an index.js file, style.scss and schema.js.
 
 ## Required dependencies
 
