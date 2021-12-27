@@ -5,7 +5,9 @@
 
 Can be used in all web applications, but the library is designed for use with Sanity IO. Each component has its own folder, containing an index.js file, style.scss and schema.js.
 
-## Required dependencies
+## Required packages
+
+These packages is in addition to React and NextJS.
 
 - @sanity/block-content-to-react (min. v3.0.0.)
 - sass (min. v1.44.0)
