@@ -3,7 +3,7 @@
 import { useRouter } from 'next/router'
 import React from 'react'
 import * as Demodata from '../../components/demodata'
-import * as Components from '../../components/list'
+import * as Components from '../../components'
 import styles from '../../styles/app.module.scss'
 
 export default function Demo() {

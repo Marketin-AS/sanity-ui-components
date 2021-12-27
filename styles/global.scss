@@ -23,35 +23,42 @@ body {
 h1 {
   font-size: var(--font-xxl);
   font-weight: var(--font-weight-bold);
+  margin: 1rem 0;
 }
 
 h2 {
   font-size: var(--font-xl);
   font-weight: var(--font-weight-bold);
+  margin: 1rem 0;
 }
 
 h3 {
   font-size: var(--font-lg);
   font-weight: var(--font-weight-bold);
+  margin: 1rem 0;
 }
 
 h4 {
   font-size: var(--font-md);
   font-weight: var(--font-weight-bold);
+  margin: 1rem 0;
 }
 
 h5 {
   font-size: var(--font-sm);
   font-weight: var(--font-weight-bold);
+  margin: 1rem 0;
 }
 
 h6 {
   font-size: var(--font-xs);
   font-weight: var(--font-weight-bold);
+  margin: 1rem 0;
 }
 
 p {
   font-size: var(--font-base);
+  margin: 1rem 0;
 }
 
 ::-webkit-scrollbar {

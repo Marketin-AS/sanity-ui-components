@@ -18,9 +18,9 @@ export default {
       name: 'width',
       type: 'string',
       options: [
-        { title: '100%', value: '100' },
-        { title: '75%', value: '75' },
-        { title: '50%', value: '50' },
+        { title: '100%', value: '100%' },
+        { title: '75%', value: '75%' },
+        { title: '50%', value: '50%' },
       ],
       validation: (Rule) => Rule.required().error('This field is required'),
     },
@@ -33,7 +33,7 @@ export default {
       const { width } = selection
       return {
         title: 'Text (normal)',
-        subtitle: `Width: ${width} %`,
+        subtitle: `Width: ${width}`,
         media: FiType,
       }
     },

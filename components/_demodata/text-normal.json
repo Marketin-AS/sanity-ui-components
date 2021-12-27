@@ -2,7 +2,7 @@
   {
     "id": "1",
     "data": {
-      "width": "100",
+      "width": "100%",
       "content": [
         {
           "_key": "9e67e22398b3",
@@ -38,7 +38,7 @@
   {
     "id": "2",
     "data": {
-      "width": "75",
+      "width": "75%",
       "content": [
         {
           "_key": "9e67e22398b3",
@@ -74,7 +74,7 @@
   {
     "id": "3",
     "data": {
-      "width": "50",
+      "width": "50%",
       "content": [
         {
           "_key": "9e67e22398b3",

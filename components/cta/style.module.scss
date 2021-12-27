@@ -1,0 +1,45 @@
+.buttonPrimary,
+.buttonSecondary {
+  padding: 8px 20px;
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow-md);
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: var(--font-weight-medium);
+
+  @media (max-width: 1024px) {
+    padding: 8px 20px;
+    font-size: var(--font-xs);
+  }
+}
+
+.buttonPrimary {
+  background: var(--color-primary);
+  color: var(--color-white);
+}
+
+.buttonSecondary {
+  background: var(--color-secondary);
+  color: var(--color-white);
+}
+
+.linkPrimary,
+.linkSecondary {
+  text-decoration: none;
+  font-weight: var(--font-weight-medium);
+  padding: 8px;
+
+  @media (max-width: 1024px) {
+    font-size: var(--font-xs);
+  }
+}
+
+.linkPrimary {
+  color: var(--color-primary);
+  border-bottom: 3px solid var(--color-primary);
+}
+
+.linkSecondary {
+  color: var(--color-secondary);
+  border-bottom: 3px solid var(--color-secondary);
+}

@@ -4,14 +4,12 @@ import RenderBlockContent from '../../lib/BlockContent'
 
 function TextNormal(props) {
   if (!props.data) return null
-  const { content, width = '100' } = props.data
+  const { content, width = '100%' } = props.data
 
   return (
     <div className={styles.root}>
-      <div className={styles.container}>
-        <div style={{ margin: '0 auto', width: `${width}%` }}>
-          <RenderBlockContent blocks={content} />
-        </div>
+      <div className={styles.container} style={{ '--width': width }}>
+        <RenderBlockContent blocks={content} />
       </div>
     </div>
   )

@@ -1,6 +1,7 @@
 export { default as BannerColor } from './banner-color'
 export { default as BannerImage } from './banner-image'
 export { default as Cards } from './cards'
+export { default as Cta } from './cta'
 export { default as Faq } from './faq'
 export { default as Features } from './features'
 export { default as FeaturesAnimated } from './features-animated'
