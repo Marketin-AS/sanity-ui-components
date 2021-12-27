@@ -1,6 +1,7 @@
 export { default as Demodata_BannerColor } from './_demodata/banner-color'
 export { default as Demodata_BannerImage } from './_demodata/banner-image'
 export { default as Demodata_Cards } from './_demodata/cards'
+export { default as Demodata_ContactForm } from './_demodata/contact-form'
 export { default as Demodata_Faq } from './_demodata/faq'
 export { default as Demodata_Features } from './_demodata/features'
 export { default as Demodata_FeaturesAnimated } from './_demodata/features-animated'
