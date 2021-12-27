@@ -1,6 +1,12 @@
 # Sanity UI Components
 
-> Versjon 1.0.0 <br />
-> Utviklet av Daniel Martinsen, for Marketin AS
+> Version 1.0.0 <br />
+> Developed by Daniel Martinsen at Marketin AS
 
-Kan benyttes i alle web-applikasjoner, men er designet for bruk med Sanity IO. Hver komponent har en egen mappe som innholder en index.js fil, style.scss og schema.js.
+Can be used in all web applications, but is designed for use with Sanity IO. Each component has its own folder that contains an index.js file, style.scss and schema.js.
+
+## Required dependencies
+
+- @sanity/block-content-to-react (min. v3.0.0.)
+- sass (min. v1.44.0)
+- react-hook-form (min. v7.22.5)

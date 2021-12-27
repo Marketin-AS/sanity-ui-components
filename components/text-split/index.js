@@ -1,11 +1,16 @@
 import styles from './style.module.scss'
 import PropTypes from 'prop-types'
 import Cta from '../cta'
-import RenderBlockContent from '../../lib/BlockContent'
+import BlockContent from '@sanity/block-content-to-react'
 
 function TextSplit(props) {
   if (!props.data) return null
   const { heading, content, style = 'left', ctas } = props.data
+
+  if (!content) {
+    console.error('Missing content')
+    return null
+  }
 
   return (
     <div className={styles.root}>
@@ -21,7 +26,7 @@ function TextSplit(props) {
           </div>
         </div>
         <div className={styles.content}>
-          <RenderBlockContent blocks={content} />
+          <BlockContent blocks={content} />
         </div>
       </div>
     </div>
