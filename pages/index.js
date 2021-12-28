@@ -1,10 +1,11 @@
 import styles from '../styles/app.module.scss'
+import Link from 'next/link'
 
 function Home() {
   return (
     <>
       <div className={styles.topNav}>
-        <p>Sanity UI Components</p>>
+        <p>Sanity UI Components</p>
         <img src='/marketin-logo.png' height={40} />
       </div>
       <div className={styles.container}>
@@ -19,69 +20,69 @@ function Home() {
         <h2>Komponenter</h2>
         <ul className={styles.links}>
           <li>
-            <a href='/demo/Hero1'>Hero 1</a>
+            <Link href='/demo/Hero1'>Hero 1</Link>
           </li>
           <li>
-            <a href='/demo/Hero2'>Hero 2</a>
+            <Link href='/demo/Hero2'>Hero 2</Link>
           </li>
           <li>
-            <a href='/demo/Hero3'>Hero 3</a>
+            <Link href='/demo/Hero3'>Hero 3</Link>
           </li>
           <li>
-            <a href='/demo/TextNormal'>Text normal</a>
+            <Link href='/demo/TextNormal'>Text normal</Link>
           </li>
           <li>
-            <a href='/demo/TextSplit'>Text split</a>
+            <Link href='/demo/TextSplit'>Text split</Link>
           </li>
           <li>
-            <a href='/demo/TextColumns'>Text columns</a>
+            <Link href='/demo/TextColumns'>Text columns</Link>
           </li>
           <li>
-            <a href='/demo/TextWithImage'>Text with image</a>
+            <Link href='/demo/TextWithImage'>Text with image</Link>
           </li>
           <li>
-            <a href='/demo/TextWithPoints'>Text with points</a>
+            <Link href='/demo/TextWithPoints'>Text with points</Link>
           </li>
           <li>
-            <a href='/demo/Image'>Image</a>
+            <Link href='/demo/Image'>Image</Link>
           </li>
           <li>
-            <a href='/demo/Quote'>Quote</a>
+            <Link href='/demo/Quote'>Quote</Link>
           </li>
           <li>
-            <a href='/demo/Cards'>Cards</a>
+            <Link href='/demo/Cards'>Cards</Link>
           </li>
           <li>
-            <a href='/demo/BannerImage'>Image banner</a>
+            <Link href='/demo/BannerImage'>Image banner</Link>
           </li>
           <li>
-            <a href='/demo/BannerColor'>Color banner</a>
+            <Link href='/demo/BannerColor'>Color banner</Link>
           </li>
           <li>
-            <a href='/demo/Faq'>FAQ</a>
+            <Link href='/demo/Faq'>FAQ</Link>
           </li>
           <li>
-            <a href='/demo/Features'>Features</a>
+            <Link href='/demo/Features'>Features</Link>
           </li>
           <li>
-            <a href='/demo/FeaturesAnimated'>Animated features</a>
+            <Link href='/demo/FeaturesAnimated'>Animated features</Link>
           </li>
           <li>
-            <a href='/demo/Tabs'>Tabs</a>
+            <Link href='/demo/Tabs'>Tabs</Link>
           </li>
           <li>
-            <a href='/demo/Logos'>Logos</a>
+            <Link href='/demo/Logos'>Logos</Link>
           </li>
           <li>
-            <a href='/demo/Persons'>Persons</a>
+            <Link href='/demo/Persons'>Persons</Link>
           </li>
         </ul>
 
         <h2>Kontaktinformasjon</h2>
         <p>
           Biblioteket er utviklet av Daniel Martinsen, utvikler og partner i Marketin SEO-
-          og webbyrå. Telefon, e-post og mer informasjon om Marketin er tilgjengelig på{' '}
-          <a href='https://marketin.no'>vår nettside</a>.
+          og webbyrå. Telefon, e-post og mer informasjon om Marketin er tilgjengelig på
+          <Link href='https://marketin.no'>vår nettside</Link>.
         </p>
       </div>
     </>
