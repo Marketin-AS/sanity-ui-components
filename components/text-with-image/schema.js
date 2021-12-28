@@ -8,12 +8,6 @@ export default {
   fieldsets: [],
   fields: [
     {
-      title: 'Heading',
-      name: 'heading',
-      type: 'string',
-      validation: (Rule) => Rule.required().error('This field is required'),
-    },
-    {
       title: 'Content',
       name: 'content',
       type: 'texteditor',

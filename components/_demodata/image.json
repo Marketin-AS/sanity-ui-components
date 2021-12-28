@@ -1,6 +1,34 @@
 [
   {
     "id": "1",
-    "data": {}
+    "data": {
+      "image": {
+        "_type": "figure",
+        "alt": "Marketin SEO- og webbyrå. Din lokale og folkelige samarbeidspartner.",
+        "asset": {
+          "_ref": "image-25a7abb16a96c60fdf7e2fadfe9dd003a9725df7-5432x2816-jpg",
+          "_type": "reference",
+          "url": "/placeholder.png"
+        }
+      },
+      "width": "100%",
+      "caption": "This is a demo caption to the image."
+    }
+  },
+  {
+    "id": "2",
+    "data": {
+      "image": {
+        "_type": "figure",
+        "alt": "Marketin SEO- og webbyrå. Din lokale og folkelige samarbeidspartner.",
+        "asset": {
+          "_ref": "image-25a7abb16a96c60fdf7e2fadfe9dd003a9725df7-5432x2816-jpg",
+          "_type": "reference",
+          "url": "/placeholder.png"
+        }
+      },
+      "width": "75%",
+      "caption": "This is a demo caption to the image."
+    }
   }
 ]

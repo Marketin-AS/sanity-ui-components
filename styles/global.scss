@@ -85,7 +85,7 @@ p {
 
   // Text
   --font-family: 'Open Sans', sans-serif;
-  --font-base: 18px;
+  --font-base: 17px;
 
   --font-xxl: 2.9rem;
   --font-xl: 2.3rem;
@@ -134,6 +134,6 @@ p {
 @media (max-width: 768px) {
   :root {
     --section-margin: 72px;
-    --font-base: 16px;
+    --font-base: 15px;
   }
 }

@@ -9,6 +9,10 @@ Can be used in all web applications, but the library is designed for use with Sa
 
 These packages is in addition to React and NextJS.
 
-- @sanity/block-content-to-react (min. v3.0.0.)
-- sass (min. v1.44.0)
-- react-hook-form (min. v7.22.5)
+- `@sanity/block-content-to-react` (min. v3.0.0.)
+- `sass` (min. v1.44.0)
+- `react-hook-form` (min. v7.22.5)
+
+## Remember this
+
+- Some components use images and takes advantage of `next/image`. In case you use this components, hosts has to be configured under images in `next.config.js`

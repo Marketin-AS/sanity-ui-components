@@ -11,3 +11,22 @@
   margin: 0 auto;
   position: relative;
 }
+
+.image {
+  margin: 0 auto;
+
+  @media (max-width: 1024px) {
+    width: 100% !important;
+  }
+
+  span {
+    overflow: hidden;
+    border-radius: var(--border-radius);
+  }
+
+  .caption {
+    color: #6d6d6d;
+    font-size: var(--font-xs);
+    margin: 0.5rem 0;
+  }
+}
