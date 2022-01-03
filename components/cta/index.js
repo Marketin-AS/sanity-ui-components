@@ -3,12 +3,11 @@ import Link from 'next/link'
 import PropTypes from 'prop-types'
 
 function Cta(props) {
-  if (!props.data) return null
-  const { title, page = null, link = null, style = 'buttonPrimary' } = props.data
+  const { title, page = null, link = null, style = 'buttonPrimary' } = props
 
-  if (page && page?.slug?.current) {
+  if (page && page?.page?.slug?.current) {
     return (
-      <Link href={page.slug.current}>
+      <Link href={page.page.slug.current}>
         <a className={styles[style]}>{title}</a>
       </Link>
     )

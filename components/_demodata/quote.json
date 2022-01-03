@@ -1,6 +1,43 @@
 [
   {
-    "id": "1",
-    "data": {}
+    "quote": [
+      {
+        "_key": "40562c0448e1",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "d6e306ce72d8",
+            "_type": "span",
+            "marks": [],
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      }
+    ],
+    "tagline": "Daniel Martinsen, Marketin AS",
+    "style": "full",
+    "background": "primary"
+  },
+  {
+    "quote": [
+      {
+        "_key": "40562c0448e1",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "d6e306ce72d8",
+            "_type": "span",
+            "marks": [],
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      }
+    ],
+    "tagline": "Daniel Martinsen, Marketin AS",
+    "style": "bubble"
   }
 ]

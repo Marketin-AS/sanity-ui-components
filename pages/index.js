@@ -44,7 +44,7 @@ function Home() {
             <Link href='/demo/TextWithPoints'>Text with points</Link>
           </li>
           <li>
-            <Link href='/demo/Image'>Image</Link>
+            <Link href='/demo/LazyImage'>Image (lazyload)</Link>
           </li>
           <li>
             <Link href='/demo/Quote'>Quote</Link>

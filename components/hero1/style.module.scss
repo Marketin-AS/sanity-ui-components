@@ -1,0 +1,33 @@
+.root {
+  width: 100%;
+  padding: 0px 16px;
+  position: relative;
+  margin: 24px 0 var(--section-margin) 0;
+}
+
+.container {
+  width: 100%;
+  max-width: var(--site-width);
+  margin: 0 auto;
+  position: relative;
+}
+
+.image {
+  overflow: hidden;
+  border-radius: var(--border-radius);
+}
+
+.contentOnImage {
+  width: auto;
+  padding: 16px 32px;
+  position: absolute;
+  z-index: 1;
+  bottom: 24px;
+  left: 24px;
+  border-radius: var(--border-radius);
+  background: var(--color-primary-light);
+
+  * {
+    margin: 0;
+  }
+}

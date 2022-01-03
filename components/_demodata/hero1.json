@@ -1,0 +1,13 @@
+[
+  {
+    "heading": "Pagetitle",
+    "image": {
+      "alt": "Alt tekst",
+      "asset": {
+        "url": "/placeholder.png"
+      }
+    },
+    "textOnImage": true,
+    "withContactForm": true
+  }
+]

@@ -5,6 +5,7 @@ import React from 'react'
 import * as Demodata from '../../components/demodata'
 import * as Components from '../../components'
 import styles from '../../styles/app.module.scss'
+import { upperFirst } from 'lodash'
 
 export default function Demo() {
   const router = useRouter()
@@ -25,8 +26,8 @@ export default function Demo() {
     )
   }
 
-  const ResolveComponent = Components[componentName]
-  const ResolveDemodata = Demodata[`Demodata_${componentName}`]
+  const ResolveComponent = Components[upperFirst(componentName)]
+  const ResolveDemodata = Demodata[upperFirst(componentName)]
 
   if (!ResolveComponent || !ResolveDemodata) {
     console.error("Can't find component or demodata")

@@ -12,6 +12,8 @@ These packages is in addition to React and NextJS.
 - `@sanity/block-content-to-react` (min. v3.0.0.)
 - `sass` (min. v1.44.0)
 - `react-hook-form` (min. v7.22.5)
+- `next-sanity` (min v0.4.0)
+- `react-icons` (min v.4.3.1)
 
 ## Remember this
 

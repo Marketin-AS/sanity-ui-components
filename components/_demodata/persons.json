@@ -1,6 +1,59 @@
 [
   {
-    "id": "1",
-    "data": {}
+    "heading": "Våre ansatte",
+    "columns": "3",
+    "persons": [
+      {
+        "email": "henrik@marketin.no",
+        "image": {
+          "_type": "figure",
+          "alt": "Henrik Park - SEO spesialist og daglig leder",
+          "asset": {
+            "url": "/placeholder.png"
+          }
+        },
+        "name": "Henrik Park",
+        "phone": "921 10 940",
+        "slug": {
+          "_type": "slug",
+          "current": "henrik"
+        },
+        "title": "SEO spesialist og daglig leder"
+      },
+      {
+        "email": "daniel@marketin.no",
+        "image": {
+          "_type": "figure",
+          "alt": "Daniel Martinsen - Utvikler, designer og partner",
+          "asset": {
+            "url": "/placeholder.png"
+          }
+        },
+        "name": "Daniel Martinsen",
+        "phone": "910 01 793",
+        "slug": {
+          "_type": "slug",
+          "current": "daniel"
+        },
+        "title": "Utvikler, designer og partner"
+      },
+      {
+        "email": "hakon@advkrogh.no",
+        "image": {
+          "_type": "figure",
+          "alt": "Håkon Berget",
+          "asset": {
+            "url": "/placeholder.png"
+          }
+        },
+        "name": "Håkon Berget",
+        "phone": "921 10 940",
+        "slug": {
+          "_type": "slug",
+          "current": "hakon"
+        },
+        "title": "Tekstforfatter"
+      }
+    ]
   }
 ]
